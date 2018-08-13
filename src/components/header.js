@@ -20,7 +20,8 @@ export default class header extends Component {
           <Icon {...icon_props} />
         </View>
         <View style={styles.logo}>
-          <Text style={styles.logotext}>Jbify</Text>
+          <Text style={styles.logo_text_J}>J</Text>
+          <Text style={styles.logo_text}>bify</Text>
         </View>
         <View style={styles.close}>
           <Text style={styles.closeicon} onPress={BackAndroid.exitApp}>X</Text>
@@ -59,9 +60,14 @@ const styles = StyleSheet.create({
   menuicon: {
     marginLeft: 8
   },
-  logotext: {
+  logo_text_J: {
     color: "#A30155",
-    fontSize: 20,
+    fontSize: 25,
     fontWeight: "bold"
+  },
+  logo_text:{
+    fontSize: 20,
+    color: "white",
+    marginTop:3
   }
 });

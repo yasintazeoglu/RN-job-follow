@@ -20,6 +20,6 @@ export default  createDrawerNavigator(
   {
     navigationOptions: ({ navigation }) => ({
     }),
-    // contentComponent:SideMenu
+    contentComponent:SideMenu
   }
 );

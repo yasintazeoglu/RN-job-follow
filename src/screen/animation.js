@@ -22,9 +22,9 @@ class AnimationScreen extends React.Component {
     this.setState({ status: false });
   }
   render() {
-    console.log(this.props)
-    this.state.status ? this.getData() : null;
-    this.props.set_control ? this.props.navigation.navigate("Works") : null;
+    // this.state.status ? this.getData() : null;
+    // this.props.set_control ? this.props.navigation.navigate("Works") : null;
+    this.props.navigation.navigate("Works")
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
         <Text>AnimationScreen!</Text>

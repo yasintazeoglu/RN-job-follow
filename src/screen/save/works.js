@@ -46,6 +46,7 @@ class Works extends React.Component {
       });
   }
   render() {
+    this.props.navigation.openDrawer()
     const { companies, return_picker, picker_item } = this.props;
     const icon_props = {
       containerStyle: styles.menuicon,
